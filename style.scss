@@ -1,0 +1,54 @@
+@use 'var/color' as c;
+
+body{
+    color: c.$main-color;
+    margin: 20px;
+}
+.background{
+    background-color: aquamarine;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    .title{
+        h1{
+        margin: 2% 0 2% 0; 
+        }   
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 25px;
+        margin: 0px;
+        align-items: center;
+    }
+        .number{
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            padding: 3% 0 3% 0;
+        }
+        .btn{
+            background-color: aqua;
+            border: 0.5px solid;
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        .btn:hover{
+            opacity: 0.6;
+        }
+}
+.background2{
+    background-color: azure;
+    .length,.mass,.volume{
+        display: flex;
+        justify-content: center;
+    }
+    p{
+        display: flex;
+        justify-content: center; 
+    }
+
+}
