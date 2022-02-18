@@ -1,6 +1,5 @@
 "use strict"
 let count = 2
-let lengt = 0
 let numberEl = document.getElementById("number-el").textContent = count
 let lengthEL = document.getElementById("length-el")
 let volumeEL =document.getElementById("volume-el")
