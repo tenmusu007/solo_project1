@@ -11,7 +11,11 @@ body {
   align-items: center;
   border-radius: 10px;
 }
+.background .title {
+  text-align: center;
+}
 .background .title h1 {
+  font-size: 30px;
   margin: 2% 0 2% 0;
 }
 .background .box {
@@ -23,7 +27,7 @@ body {
   align-items: center;
 }
 .background .number {
-  font-size: 30px;
+  font-size: px;
   display: flex;
   justify-content: center;
   padding: 3% 0 3% 0;

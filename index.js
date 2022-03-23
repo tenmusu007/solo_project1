@@ -10,9 +10,9 @@ function calculate(){
      number * 0.3 +" " + "m"
     ozEL.textContent = number +" " +"oz" + "= "+
      number * 28 +" " + "g"
-    let liter = document.createElement('p')
-    document.getElementById("oz-el").appendChild(liter)
-    liter.textContent = number
+    // let liter = document.createElement('p')
+    // ozEL.appendChild(liter)
+    // liter.textContent = number
     massEL.textContent = number +" " +"pounds" + "= "+
      number * 0.5 +" " + "kg"
 }   
